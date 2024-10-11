@@ -1,0 +1,10 @@
+{
+	"name": "@format/core",
+	"version": "0.0.1",
+	"license": "MIT",
+	"exports": "./src/mod.ts",
+	"tasks": {
+		"dev": "deno run --watch src/mod.ts",
+		"fmt": "deno fmt --use-tabs"
+	}
+}
