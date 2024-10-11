@@ -11,15 +11,33 @@ them in the future.
 Any type that consists of Verticies, Faces, and Traingles. Also Potentially
 Normals.
 
-### Tri Mesh
+### Mesh
+
+#### 3D Mesh
 
 Used by formates that contain triangle mesh data:
+
+`Mesh3D`
 
 - wavefront-obj
 - stl
 - gltf
 - fbx
 
+#### 3D Mesh
+
+Some formats use this to define planes and other geometry in 2D space.
+
+`Mesh2D`
+
 ## F-Splines
 
-TODO: Will include data on creating and interacting with f-splines
+Used by Step formats and some drawing formats to create curves.
+
+`FSpline`
+
+## Point Clioud
+
+Can be in either 2d or 3d. Alos has an optional rgb value. 
+
+`PointCloud`
